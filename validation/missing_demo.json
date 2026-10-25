@@ -1,0 +1,44 @@
+{
+ "Dichotomous": {
+  "cells_removed": 34,
+  "cells_total": 344,
+  "n_listwise": 56,
+  "n_pairable": 85,
+  "alpha_app": 0.41111382312261024,
+  "alpha_pkg": 0.41111382312261013,
+  "alpha_listwise": 0.41898713564566037,
+  "ci": [
+   0.2155662073490814,
+   0.5793609067264686
+  ],
+  "n_units_other": 56
+ },
+ "Nominal-Ordinal": {
+  "cells_removed": 34,
+  "cells_total": 344,
+  "n_listwise": 56,
+  "n_pairable": 85,
+  "alpha_app": 0.34743852325981306,
+  "alpha_pkg": 0.34743852325981317,
+  "alpha_listwise": 0.2968438763201551,
+  "ci": [
+   0.21421050710734732,
+   0.4710460228260675
+  ],
+  "n_units_other": 56
+ },
+ "Interval-Ratio": {
+  "cells_removed": 34,
+  "cells_total": 344,
+  "n_listwise": 56,
+  "n_pairable": 85,
+  "alpha_app": 0.516446697185759,
+  "alpha_pkg": 0.5164466971857589,
+  "alpha_listwise": 0.5063489531834839,
+  "ci": [
+   0.39268065237289146,
+   0.6121624283258366
+  ],
+  "n_units_other": 56
+ }
+}

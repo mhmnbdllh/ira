@@ -1,0 +1,951 @@
+{
+ "rows": [
+  {
+   "check": "PA S1",
+   "app": 0.7790697674418605,
+   "ref": 0.7790697674418605,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI lo S1",
+   "app": 0.6895989942683126,
+   "ref": 0.6895989942683126,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI hi S1",
+   "app": 0.8685405406154084,
+   "ref": 0.8685405406154084,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA S2",
+   "app": 0.8062015503875969,
+   "ref": 0.8062015503875969,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI lo S2",
+   "app": 0.7498057375553139,
+   "ref": 0.7498057375553139,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI hi S2",
+   "app": 0.8625973632198799,
+   "ref": 0.8625973632198799,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA S3",
+   "app": 0.5581395348837209,
+   "ref": 0.5581395348837209,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI lo S3",
+   "app": 0.4510420170244621,
+   "ref": 0.4510420170244621,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI hi S3",
+   "app": 0.6652370527429797,
+   "ref": 0.6652370527429797,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA S4",
+   "app": 0.5794573643410853,
+   "ref": 0.5794573643410854,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI lo S4",
+   "app": 0.5172682525455476,
+   "ref": 0.5172682525455478,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI hi S4",
+   "app": 0.641646476136623,
+   "ref": 0.6416464761366231,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA S5",
+   "app": 0.011627906976744186,
+   "ref": 0.011627906976744186,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI lo S5",
+   "app": 0.0,
+   "ref": 0.0,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI hi S5",
+   "app": 0.03474730124973514,
+   "ref": 0.03474730124973514,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA S6",
+   "app": 0.03682170542635659,
+   "ref": 0.036821705426356585,
+   "absdiff": 6.938893903907228e-18,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI lo S6",
+   "app": 0.021909909897431946,
+   "ref": 0.02190990989743194,
+   "absdiff": 6.938893903907228e-18,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "PA CI hi S6",
+   "app": 0.05173350095528124,
+   "ref": 0.05173350095528123,
+   "absdiff": 6.938893903907228e-18,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "Cohen unweighted kappa S1 vs scikit-learn",
+   "app": 0.41349605168700654,
+   "ref": 0.41349605168700654,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen unweighted kappa S1 vs statsmodels",
+   "app": 0.41349605168700654,
+   "ref": 0.41349605168700654,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen unweighted null SE (FCE Eq.9) S1 vs statsmodels std_kappa0",
+   "app": 0.1065406459073077,
+   "ref": 0.1065406459073077,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen unweighted general SE (FCE Eq.8) S1 vs statsmodels std_kappa",
+   "app": 0.11108197623230917,
+   "ref": 0.11108197623230913,
+   "absdiff": 4.163336342344337e-17,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen linear kappa S1 vs scikit-learn",
+   "app": 0.41349605168700654,
+   "ref": 0.41349605168700654,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen linear kappa S1 vs statsmodels",
+   "app": 0.41349605168700654,
+   "ref": 0.4134960516870064,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen linear null SE (FCE Eq.9) S1 vs statsmodels std_kappa0",
+   "app": 0.1065406459073077,
+   "ref": 0.10654064590730762,
+   "absdiff": 8.326672684688674e-17,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen linear general SE (FCE Eq.8) S1 vs statsmodels std_kappa",
+   "app": 0.11108197623230917,
+   "ref": 0.11108197623230912,
+   "absdiff": 5.551115123125783e-17,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen quadratic kappa S1 vs scikit-learn",
+   "app": 0.41349605168700654,
+   "ref": 0.41349605168700654,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen quadratic kappa S1 vs statsmodels",
+   "app": 0.41349605168700654,
+   "ref": 0.4134960516870064,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen quadratic null SE (FCE Eq.9) S1 vs statsmodels std_kappa0",
+   "app": 0.1065406459073077,
+   "ref": 0.10654064590730762,
+   "absdiff": 8.326672684688674e-17,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen quadratic general SE (FCE Eq.8) S1 vs statsmodels std_kappa",
+   "app": 0.11108197623230917,
+   "ref": 0.11108197623230912,
+   "absdiff": 5.551115123125783e-17,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen unweighted kappa S3 vs scikit-learn",
+   "app": 0.2089082546598886,
+   "ref": 0.2089082546598886,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen unweighted kappa S3 vs statsmodels",
+   "app": 0.2089082546598886,
+   "ref": 0.20890825465988863,
+   "absdiff": 2.7755575615628914e-17,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen unweighted null SE (FCE Eq.9) S3 vs statsmodels std_kappa0",
+   "app": 0.09119153487216422,
+   "ref": 0.09119153487216419,
+   "absdiff": 2.7755575615628914e-17,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen unweighted general SE (FCE Eq.8) S3 vs statsmodels std_kappa",
+   "app": 0.0955758918969173,
+   "ref": 0.0955758918969173,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen linear kappa S3 vs scikit-learn",
+   "app": 0.26511831726555646,
+   "ref": 0.26511831726555646,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen linear kappa S3 vs statsmodels",
+   "app": 0.26511831726555646,
+   "ref": 0.26511831726555657,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen linear null SE (FCE Eq.9) S3 vs statsmodels std_kappa0",
+   "app": 0.08862519172205952,
+   "ref": 0.08862519172206008,
+   "absdiff": 5.689893001203927e-16,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen linear general SE (FCE Eq.8) S3 vs statsmodels std_kappa",
+   "app": 0.09287475488022787,
+   "ref": 0.0928747548802273,
+   "absdiff": 5.689893001203927e-16,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen quadratic kappa S3 vs scikit-learn",
+   "app": 0.35064456721915294,
+   "ref": 0.3506445672191528,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen quadratic kappa S3 vs statsmodels",
+   "app": 0.35064456721915294,
+   "ref": 0.3506445672191528,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen quadratic null SE (FCE Eq.9) S3 vs statsmodels std_kappa0",
+   "app": 0.10468729251226942,
+   "ref": 0.10468729251227313,
+   "absdiff": 3.70536934468646e-15,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Cohen quadratic general SE (FCE Eq.8) S3 vs statsmodels std_kappa",
+   "app": 0.09758474332479417,
+   "ref": 0.09758474332480024,
+   "absdiff": 6.078471059822732e-15,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Scott pi S1 vs statsmodels fleiss_kappa(k=2)",
+   "app": 0.4108527131782947,
+   "ref": 0.4108527131782947,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Scott pi S1 vs irrCAC fleiss(k=2)",
+   "app": 0.4108527131782947,
+   "ref": 0.41085,
+   "absdiff": 2.7131782946998584e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Scott pi general SE S1 (Gwet 2021, k=2) vs irrCAC",
+   "app": 0.11311828135127325,
+   "ref": 0.11312,
+   "absdiff": 1.718648726750649e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Scott pi t-CI lower S1 vs irrCAC",
+   "app": 0.18594326461857902,
+   "ref": 0.18594,
+   "absdiff": 3.264618579024159e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Scott pi t-CI upper S1 vs irrCAC",
+   "app": 0.6357621617380104,
+   "ref": 0.63576,
+   "absdiff": 2.161738010375558e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Scott pi null SE S1 (Fleiss, Nee & Landis 1979, k=2) re-typed",
+   "app": 0.10783277320343841,
+   "ref": 0.10783277320343841,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "BP S1 vs irrCAC bp",
+   "app": 0.558139534883721,
+   "ref": 0.55814,
+   "absdiff": 4.6511627893597307e-07,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "BP SE S1 (Cohen 1960 form, Pe=1/q) re-typed",
+   "app": 0.08947393147700045,
+   "ref": 0.08947393147700045,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "AC1 S1 vs irrCAC gwet",
+   "app": 0.6465116279069768,
+   "ref": 0.64651,
+   "absdiff": 1.6279069767755061e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC1 jackknife SE S1 re-typed",
+   "app": 0.0826388374388972,
+   "ref": 0.0826388374388972,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "AC1 S2 vs irrCAC gwet",
+   "app": 0.70446735395189,
+   "ref": 0.70447,
+   "absdiff": 2.6460481100665234e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC1 jackknife SE S2 re-typed",
+   "app": 0.05165766179962908,
+   "ref": 0.05165766179962908,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "AC2[identity] S3 vs irrCAC gwet",
+   "app": 0.4867385201327129,
+   "ref": 0.48674,
+   "absdiff": 1.4798672871019214e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC2[quadratic] S3 vs irrCAC gwet",
+   "app": 0.9377070322506559,
+   "ref": 0.93771,
+   "absdiff": 2.9677493441626623e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC2[linear] S3 vs irrCAC gwet",
+   "app": 0.8054242204496012,
+   "ref": 0.80542,
+   "absdiff": 4.220449601133325e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC2[radical] S3 vs irrCAC gwet",
+   "app": 0.6743357885848672,
+   "ref": 0.67434,
+   "absdiff": 4.211415132848728e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC2[ordinal] S3 vs irrCAC gwet",
+   "app": 0.9068268306225541,
+   "ref": 0.90683,
+   "absdiff": 3.1693774459329305e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC2[identity] S4 vs irrCAC gwet",
+   "app": 0.5100004594894416,
+   "ref": 0.51,
+   "absdiff": 4.5948944160656424e-07,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC2[quadratic] S4 vs irrCAC gwet",
+   "app": 0.931220892300384,
+   "ref": 0.93122,
+   "absdiff": 8.923003839145238e-07,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC2[linear] S4 vs irrCAC gwet",
+   "app": 0.8044324207761147,
+   "ref": 0.80443,
+   "absdiff": 2.4207761146755047e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC2[radical] S4 vs irrCAC gwet",
+   "app": 0.6821229450653629,
+   "ref": 0.68212,
+   "absdiff": 2.9450653629137236e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC2[ordinal] S4 vs irrCAC gwet",
+   "app": 0.9014591990281146,
+   "ref": 0.90146,
+   "absdiff": 8.009718854840031e-07,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "AC2[identity] == AC1 (S3, q=5) identity",
+   "app": 0.4867385201327129,
+   "ref": 0.48674,
+   "absdiff": 1.4798672871019214e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "identity"
+  },
+  {
+   "check": "Fleiss S2 vs statsmodels fleiss_kappa",
+   "app": 0.4370253993191935,
+   "ref": 0.4370253993191935,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Fleiss S2 vs irrCAC fleiss",
+   "app": 0.4370253993191935,
+   "ref": 0.43703,
+   "absdiff": 4.600680806488011e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Fleiss general SE S2 (Gwet 2021) vs irrCAC",
+   "app": 0.08487875364511749,
+   "ref": 0.08488,
+   "absdiff": 1.2463548825086823e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Fleiss t-CI lower S2 vs irrCAC",
+   "app": 0.26826369741994116,
+   "ref": 0.26826,
+   "absdiff": 3.697419941162128e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Fleiss t-CI upper S2 vs irrCAC",
+   "app": 0.6057871012184458,
+   "ref": 0.60579,
+   "absdiff": 2.8987815542391715e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Fleiss SE S2 (Fleiss-Nee-Landis 1979) re-typed",
+   "app": 0.04402254531628119,
+   "ref": 0.044022545316281185,
+   "absdiff": 6.938893903907228e-18,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "Kripp alpha S1 (nominal) vs krippendorff pkg",
+   "app": 0.4142779881016766,
+   "ref": 0.4142779881016766,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Kripp alpha S2 (nominal) vs krippendorff pkg",
+   "app": 0.4386619533909403,
+   "ref": 0.43866195339094016,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Kripp alpha S3 (ordinal) vs krippendorff pkg",
+   "app": 0.3161762142184722,
+   "ref": 0.3161762142184722,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Kripp alpha S4 (ordinal) vs krippendorff pkg",
+   "app": 0.3513431337506504,
+   "ref": 0.35134313375065074,
+   "absdiff": 3.3306690738754696e-16,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Kripp alpha S5 (interval) vs krippendorff pkg",
+   "app": 0.38120386111511306,
+   "ref": 0.38120386111511306,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Kripp alpha S6 (interval) vs krippendorff pkg",
+   "app": 0.5253896549293742,
+   "ref": 0.5253896549293741,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Kripp alpha S6 (ratio) vs krippendorff pkg",
+   "app": 0.5149663874706139,
+   "ref": 0.5149663874706139,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Kripp alpha S2 (nominal) vs irrCAC krippendorff",
+   "app": 0.4386619533909403,
+   "ref": 0.43866,
+   "absdiff": 1.9533909402791316e-06,
+   "tol": 1e-05,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Kripp alpha Dichotomous with 10% missing (nominal) vs krippendorff pkg",
+   "app": 0.41111382312261024,
+   "ref": 0.41111382312261013,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Kripp alpha Nominal-Ordinal with 10% missing (ordinal) vs krippendorff pkg",
+   "app": 0.3547336097730819,
+   "ref": 0.3547336097730822,
+   "absdiff": 3.3306690738754696e-16,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "Kripp alpha Interval-Ratio with 10% missing (interval) vs krippendorff pkg",
+   "app": 0.5283906690616182,
+   "ref": 0.5283906690616182,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "package"
+  },
+  {
+   "check": "icc_1_1 S5 vs ANOVA re-typed",
+   "app": 0.38258833001215337,
+   "ref": 0.38258833001215337,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "icc_2_1 S5 vs ANOVA re-typed",
+   "app": 0.42856602451138864,
+   "ref": 0.42856602451138864,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "icc_3_1 S5 vs ANOVA re-typed",
+   "app": 0.5035655190864085,
+   "ref": 0.5035655190864085,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "icc_1_k S5 vs ANOVA re-typed",
+   "app": 0.5534378118304967,
+   "ref": 0.5534378118304967,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "icc_2_k S5 vs ANOVA re-typed",
+   "app": 0.5999947040011269,
+   "ref": 0.5999947040011269,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "icc_3_k S5 vs ANOVA re-typed",
+   "app": 0.6698285012446724,
+   "ref": 0.6698285012446724,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "icc_1_1 S6 vs ANOVA re-typed",
+   "app": 0.5275796967538223,
+   "ref": 0.5275796967538223,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "icc_2_1 S6 vs ANOVA re-typed",
+   "app": 0.5380074280843044,
+   "ref": 0.5380074280843044,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "icc_3_1 S6 vs ANOVA re-typed",
+   "app": 0.5901093529683588,
+   "ref": 0.5901093529683588,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "icc_1_k S6 vs ANOVA re-typed",
+   "app": 0.8170855488161789,
+   "ref": 0.8170855488161789,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "icc_2_k S6 vs ANOVA re-typed",
+   "app": 0.8232637209335295,
+   "ref": 0.8232637209335294,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "icc_3_k S6 vs ANOVA re-typed",
+   "app": 0.8520425601891917,
+   "ref": 0.8520425601891917,
+   "absdiff": 0.0,
+   "tol": 1e-10,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "CCC S5 re-typed (Lin 1989)",
+   "app": 0.42570412100260757,
+   "ref": 0.4257041210026076,
+   "absdiff": 5.551115123125783e-17,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "CCC CI lo S5 re-typed (Lin 1989 Fisher-z variance)",
+   "app": 0.2685665535091081,
+   "ref": 0.2685665535091081,
+   "absdiff": 0.0,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  },
+  {
+   "check": "CCC CI hi S5 re-typed",
+   "app": 0.5607716222568476,
+   "ref": 0.5607716222568477,
+   "absdiff": 1.1102230246251565e-16,
+   "tol": 1e-12,
+   "ok": true,
+   "kind": "formula"
+  }
+ ],
+ "se_compare": {
+  "BP_S1": [
+   0.08947393147700045,
+   0.09
+  ],
+  "AC1_S1": [
+   0.0826388374388972,
+   0.08281
+  ],
+  "AC1_S2": [
+   0.05165766179962908,
+   0.05168
+  ],
+  "AC2_identity_S3": [
+   0.06289624424742679,
+   0.06294
+  ],
+  "AC2_quadratic_S3": [
+   0.00950507429642498,
+   0.00956
+  ],
+  "AC2_linear_S3": [
+   0.025268028419770557,
+   0.02535
+  ],
+  "AC2_radical_S3": [
+   0.04071138977116767,
+   0.04079
+  ],
+  "AC2_ordinal_S3": [
+   0.013122797313052862,
+   0.01319
+  ],
+  "AC2_identity_S4": [
+   0.03700512829599137,
+   0.03704
+  ],
+  "AC2_quadratic_S4": [
+   0.009568903349503935,
+   0.00964
+  ],
+  "AC2_linear_S4": [
+   0.018474970371541347,
+   0.01855
+  ],
+  "AC2_radical_S4": [
+   0.02621748543462394,
+   0.02628
+  ],
+  "AC2_ordinal_S4": [
+   0.011670264073650039,
+   0.01174
+  ]
+ },
+ "missing": {
+  "Dichotomous": {
+   "cells_missing": 34,
+   "units_listwise": 56,
+   "units_alpha": 85,
+   "alpha": 0.41111382312261024
+  },
+  "Nominal-Ordinal": {
+   "cells_missing": 31,
+   "units_listwise": 56,
+   "units_alpha": 86,
+   "alpha": 0.3547336097730819
+  },
+  "Interval-Ratio": {
+   "cells_missing": 39,
+   "units_listwise": 53,
+   "units_alpha": 86,
+   "alpha": 0.5283906690616182
+  }
+ }
+}
