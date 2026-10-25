@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Independent cross-validation of every ResMeth-IRA coefficient against
 (a) independent third-party implementations (scikit-learn, statsmodels,
 irrCAC, krippendorff, pingouin) and (b) formulas re-typed here from the
