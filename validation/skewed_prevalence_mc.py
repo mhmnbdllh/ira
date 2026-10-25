@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Coverage of the application's 95% t-intervals for two-rater
 dichotomous coefficients when category prevalence is skewed and n is
 small: Cohen's kappa (general SE, Fleiss, Cohen & Everitt 1969), Scott's
