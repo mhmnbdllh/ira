@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Server-side computation time of run_multi_irar for the six configurations
 (median of 5 runs after one warm-up run), with 1,000 and 10,000 bootstrap
 resamples. Usage: timing.py <repo> <out_json>"""
