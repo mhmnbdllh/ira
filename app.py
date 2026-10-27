@@ -24,7 +24,8 @@ def home():
     st.markdown(
         """
         <div class="main-hdr">
-          <h1>&#129514; Reliability Toolkit</h1>
+          <h1>&#129514; ResMeth: Reliability Toolkit</h1>
+          <h2>Designed and Developed by Muhaimin Abdullah, Ahmad Munir, and Wiwiet Eva Savitri</h2>
           <p>Designed and Developed by Muhaimin Abdullah, Ahmad Munir, and Wiwiet Eva Savitri</p>
         </div>
         """,
