@@ -61,15 +61,20 @@ HEADER = """
 }
 .main-hdr h1 {
     color: #fff;
-    font-size: 2.1rem;
+    font-size: 2.25rem;
     font-weight: 700;
     margin: 0 0 .4rem 0;
     letter-spacing: -.4px;
 }
+.main-hdr h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 1.25rem;
+}
 .main-hdr p {
     color: #aeb8d4;
     margin: 0;
-    font-size: .95rem;
+    font-size: 1rem;
     max-width: 48ch;
 }
 .badge {
