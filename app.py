@@ -14,7 +14,7 @@ from utils.styles import load_css
 
 def home():
     st.set_page_config(
-        page_title="Reliability Toolkit",
+        page_title="Reliability Toolkit by Muhaimin Abdullah & Ahmad Munir",
         page_icon="🧪",
         layout="wide",
         initial_sidebar_state="collapsed",
