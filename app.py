@@ -25,7 +25,7 @@ def home():
         """
         <div class="main-hdr">
           <h1>&#129514; Reliability Toolkit</h1>
-          <p>Choose an analysis below to get started.</p>
+          <p>Designed and Developed by Muhaimin Abdullah, Ahmad Munir, and Wiwiet Eva Savitri</p>
         </div>
         """,
         unsafe_allow_html=True,
